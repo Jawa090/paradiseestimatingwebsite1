@@ -64,41 +64,43 @@ const Footer = () => {
 
           {/* Services */}
           <div>
-            <h3 className="text-lg font-semibold mb-4">Our Services</h3>
-            <ul className="space-y-2">
-              <li>
-                <Link to="/services/concrete" className="text-gray-300 hover:text-gold transition-colors">Concrete</Link>
-              </li>
-              <li>
-                <Link to="/services/masonry" className="text-gray-300 hover:text-gold transition-colors">Masonry</Link>
-              </li>
-              <li>
-                <Link to="/services/roofing" className="text-gray-300 hover:text-gold transition-colors">Roofing</Link>
-              </li>
-              <li>
-                <Link to="/services/hvac" className="text-gray-300 hover:text-gold transition-colors">HVAC</Link>
-              </li>
-              <li>
-                <Link to="/services/mep" className="text-gray-300 hover:text-gold transition-colors">M.E.P</Link>
-              </li>
-              <li>
-                <Link to="/services/mep" className="text-gray-300 hover:text-gold transition-colors">Flooring</Link>
-              </li>
-              <li>
-                <Link to="/services/mep" className="text-gray-300 hover:text-gold transition-colors">Drywall</Link>
-              </li>
-              <li>
-                <Link to="/services/mep" className="text-gray-300 hover:text-gold transition-colors">Finishes</Link>
-              </li>
-              <li>
-                <Link to="/services/mep" className="text-gray-300 hover:text-gold transition-colors">Insulation</Link>
-              </li>
-              <li>
-                <Link to="/services/mep" className="text-gray-300 hover:text-gold transition-colors">MTO</Link>
-              </li>
-              <li><Link to="/services/more" className="text-gray-300 hover:text-gold transition-colors">And Many More...</Link></li>
-            </ul>
-          </div>
+  <h3 className="text-lg font-semibold mb-4">Our Services</h3>
+  <ul className="space-y-2">
+    <li>
+      <Link to="/services/concrete" className="text-gray-300 hover:text-gold transition-colors">Concrete</Link>
+    </li>
+    <li>
+      <Link to="/services/masonry" className="text-gray-300 hover:text-gold transition-colors">Masonry</Link>
+    </li>
+    <li>
+      <Link to="/services/roofing" className="text-gray-300 hover:text-gold transition-colors">Roofing</Link>
+    </li>
+    <li>
+      <Link to="/services/hvac" className="text-gray-300 hover:text-gold transition-colors">HVAC</Link>
+    </li>
+    <li>
+      <Link to="/services/mep" className="text-gray-300 hover:text-gold transition-colors">M.E.P</Link>
+    </li>
+    <li>
+      <Link to="/services/flooring" className="text-gray-300 hover:text-gold transition-colors">Flooring</Link>
+    </li>
+    <li>
+      <Link to="/services/drywall-finishes" className="text-gray-300 hover:text-gold transition-colors">Drywall</Link>
+    </li>
+    <li>
+      <Link to="/services/finish-carpentry" className="text-gray-300 hover:text-gold transition-colors">Finishes</Link>
+    </li>
+    <li>
+      <Link to="/services/insulation" className="text-gray-300 hover:text-gold transition-colors">Insulation</Link>
+    </li>
+    <li>
+      <Link to="/services/material-takeoff" className="text-gray-300 hover:text-gold transition-colors">MTO</Link>
+    </li>
+    <li>
+      <Link to="/services" className="text-gray-300 hover:text-gold transition-colors">And Many More...</Link>
+    </li>
+  </ul>
+</div>
 
           {/* Contact Info */}
           <div>

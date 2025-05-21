@@ -44,7 +44,7 @@ const Services = () => {
 
   // Group services by category
   const estimationServices = servicesData.filter(service => 
-    ['material-takeoff', 'commercial-estimating', 'residential-estimating', 'earthwork', 'cost-planning', 'value-engineering', 'bid-management', 'plan-review', 'scheduling'].includes(service.id));
+  ['concrete', 'masonry', 'roofing', 'hvac', 'steel-structural', 'mep', 'finish-carpentry', 'drywall-finishes', 'excavation','lumber-takeoffs','renovation','demolition','flooring','facade-works','insulation','openings',].includes(service.id));
 
   return (
     <div className="min-h-screen flex flex-col">
